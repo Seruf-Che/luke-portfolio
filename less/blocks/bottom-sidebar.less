@@ -1,0 +1,26 @@
+.bottom-sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 215px;
+  width: 1170px;
+}
+
+@media only screen and @tablet-width {
+  
+  .bottom-sidebar {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 45px;
+  }
+}
+
+@media only screen and @mobile-width {
+  
+  .bottom-sidebar {
+    flex-direction: column;
+  }
+}

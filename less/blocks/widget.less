@@ -1,0 +1,81 @@
+.widget {
+  width: 31%;
+}
+
+.widget__heading {
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: @font-heading;
+  color: @color-heading;
+  font-size: 55px;
+  line-height: 58px;
+  font-weight: 700;
+}
+
+.widget__text {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.widget__title {
+  margin: 18px 0;
+  display: block;
+  width: 100%;
+  color: @color-content-alternative;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+.widget__link {
+  font-family: @font-heading;
+  color: @color-accented;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.widget__socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 160px;
+}
+
+.widget__socials a {
+  position: relative;
+  display: block;
+  width: 25px;
+  height: 25px;
+  fill: @color-content-alternative;
+  transition: all 0.3s;
+}
+
+.widget__socials a:hover {
+  fill: @color-accented;
+}
+
+.widget__socials svg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+@media only screen and @tablet-width {
+
+  .widget__heading {
+    font-size: 40px;
+    line-height: 43px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and @mobile-width {
+  
+  .widget {
+    width: auto;
+  }
+}

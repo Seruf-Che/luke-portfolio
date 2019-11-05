@@ -1,0 +1,55 @@
+.section {
+  padding: 145px 0;
+  background-image: url('../img/section1.jpg');
+  background-repeat: no-repeat;
+  background-repeat-y: repeat;
+  background-position: right;
+  overflow: hidden;
+}
+
+.section--2 {
+  background-image: url('../img/section2.jpg');
+  background-position: left;
+  margin-bottom: 110px;
+}
+
+.section--3 {
+  background-image: url('../img/section3.jpg');
+  background-position: top;
+  padding: 130px 0 0 0;
+}
+
+.section--4 {
+  background-image: url('../img/section4.png');
+  background-position: top;
+  padding-top: 340px;
+  padding-bottom: 160px;
+}
+
+@media only screen and @tablet-width {
+  
+  .section {
+    padding: 100px 0;
+  }
+
+  .section--2 {
+    margin-bottom: 0;
+  }
+  
+  .section--3 {
+    padding: 50px 0;
+  }
+  
+  .section--4 {
+    padding: 50px;
+    background: none;
+  }
+}
+
+@media only screen and @mobile-width {
+  
+  .section {
+    padding: 45px 0;
+    margin-top: -45px;
+  }
+}
